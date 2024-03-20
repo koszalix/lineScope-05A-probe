@@ -1793,6 +1793,12 @@
 		(uuid "34c470fc-9f35-4379-9646-94008892668d")
 	)
 	(junction
+		(at 113.665 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41ecfaf1-2360-4e55-bc6a-c08dcae872f3")
+	)
+	(junction
 		(at 217.17 104.775)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1831,6 +1837,16 @@
 			(type default)
 		)
 		(uuid "0b52d0a6-50d2-4133-b806-85f373400ac8")
+	)
+	(wire
+		(pts
+			(xy 111.76 79.375) (xy 113.665 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1202152c-14b1-4dd6-a9b2-1cb342170ac0")
 	)
 	(wire
 		(pts
@@ -2084,7 +2100,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 76.2) (xy 125.095 76.2)
+			(xy 111.76 76.2) (xy 113.665 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2194,6 +2210,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.665 76.2) (xy 125.095 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef955b4d-5a87-4df9-ab8d-0457a919c6df")
+	)
+	(wire
+		(pts
 			(xy 214.63 87.63) (xy 214.63 84.455)
 		)
 		(stroke
@@ -2211,6 +2237,16 @@
 			(type default)
 		)
 		(uuid "f19bdc91-4797-4e85-92bc-9ac4e5fe244e")
+	)
+	(wire
+		(pts
+			(xy 113.665 79.375) (xy 113.665 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6ea030a-8787-4734-b4d4-b812471b8d82")
 	)
 	(wire
 		(pts
@@ -2266,7 +2302,7 @@
 		(fields_autoplaced yes)
 		(uuid "0790fa6a-136a-4428-8a1a-6ff6e8b423e8")
 		(property "Reference" "J1"
-			(at 108.204 71.12 0)
+			(at 108.204 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2318,6 +2354,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TE-1-726388-2"
@@ -2780,7 +2817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
 			(at 223.52 81.915 0)
 			(effects
 				(font
@@ -3526,7 +3563,7 @@
 		(fields_autoplaced yes)
 		(uuid "66265dce-567d-4c02-a557-daa1a530cb21")
 		(property "Reference" "J2"
-			(at 108.204 82.55 0)
+			(at 108.204 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3578,6 +3615,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TE-1-726388-2"
@@ -3849,6 +3887,93 @@
 			(project "lineScope-05A-probe"
 				(path "/8115d74e-edfc-42b0-a8a7-ff844b3bc8be"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Koszalix_TabConnectors:TE-1-726388-2")
+		(at 111.76 79.375 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d968227-f661-4f90-9244-6626481d9850")
+		(property "Reference" "J4"
+			(at 107.95 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 111.76 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Koszalix_Connectors_Tab:TE-1-726388-2"
+			(at 111.76 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F726388%7FE3%7Fpdf%7FEnglish%7FENG_CD_726388_E3.pdf%7F1-726388-2"
+			(at 111.76 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TE-1-726388-2"
+			(at 108.204 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE-1-726388-2"
+			(at 111.76 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "766e2e28-ae01-46d5-b10f-282f0ab6675b")
+		)
+		(instances
+			(project "lineScope-05A-probe"
+				(path "/8115d74e-edfc-42b0-a8a7-ff844b3bc8be"
+					(reference "J4")
 					(unit 1)
 				)
 			)
