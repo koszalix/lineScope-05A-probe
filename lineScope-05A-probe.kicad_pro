@@ -58,7 +58,13 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "duplicate_footprints|130500000|80950000|511f5e9e-fbfd-42e7-b4f6-9d15ef279da0|3479fca2-42ce-4602-b177-2b17831a7f2f",
+        "duplicate_footprints|89100000|86137500|7f6e06ce-a59e-41d2-a689-9b3dd6da5785|3479fca2-42ce-4602-b177-2b17831a7f2f",
+        "extra_footprint|130500000|80950000|511f5e9e-fbfd-42e7-b4f6-9d15ef279da0|00000000-0000-0000-0000-000000000000",
+        "extra_footprint|169100000|103700000|3479fca2-42ce-4602-b177-2b17831a7f2f|00000000-0000-0000-0000-000000000000",
+        "extra_footprint|89100000|86137500|7f6e06ce-a59e-41d2-a689-9b3dd6da5785|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -95,7 +101,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -412,7 +418,7 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
@@ -428,7 +434,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
