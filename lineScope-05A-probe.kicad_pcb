@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "lineScope 0.5A Probe")
-		(date "2024-03-21")
-		(rev "1.0.0")
+		(date "2024-05-26")
+		(rev "1.1.0")
 		(company "Koszalix")
 	)
 	(layers
@@ -5609,7 +5609,7 @@
 				)
 			)
 		)
-		(property "Value" "300R"
+		(property "Value" "100R"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "0d597360-dfb0-455b-9912-4d292554a6a4")
@@ -5669,7 +5669,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-07300R"
+		(property "MPN" "RC0603FR-07100R"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5760,7 +5760,7 @@
 				)
 			)
 		)
-		(path "/54a37fb9-8a56-4a53-88a7-6b35da44f17b")
+		(path "/f892550f-bdfc-4aeb-8587-aefe077b214b")
 		(sheetname "Root")
 		(sheetfile "lineScope-05A-probe.kicad_sch")
 		(attr smd)
@@ -6722,7 +6722,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Rev 1.0.0 03/2024"
+	(gr_text "Rev 1.1.0 03/2024"
 		(at 103.3 83.3 0)
 		(layer "F.SilkS")
 		(uuid "d2a493f4-64a0-4c74-991d-2ecf75675961")
